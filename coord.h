@@ -8,7 +8,7 @@ class coord
 {
 
 public:
-	coord(std::vector<float> P); // P is an int array of the coordinates of the point
+	coord(std::vector<float> P); // P is a vector of floats representing the point
 	std::vector<float> Point;
 	coord();
 
